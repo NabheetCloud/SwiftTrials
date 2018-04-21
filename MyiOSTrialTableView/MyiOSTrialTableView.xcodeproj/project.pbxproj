@@ -12,6 +12,7 @@
 		F4B82E2D208B9F1A000553EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4B82E2B208B9F1A000553EF /* Main.storyboard */; };
 		F4B82E2F208B9F1C000553EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4B82E2E208B9F1C000553EF /* Assets.xcassets */; };
 		F4B82E32208B9F1C000553EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4B82E30208B9F1C000553EF /* LaunchScreen.storyboard */; };
+		F4B82E3A208BAF67000553EF /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B82E39208BAF67000553EF /* CustomTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		F4B82E2E208B9F1C000553EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F4B82E31208B9F1C000553EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F4B82E33208B9F1C000553EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4B82E39208BAF67000553EF /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				F4B82E2E208B9F1C000553EF /* Assets.xcassets */,
 				F4B82E30208B9F1C000553EF /* LaunchScreen.storyboard */,
 				F4B82E33208B9F1C000553EF /* Info.plist */,
+				F4B82E39208BAF67000553EF /* CustomTableViewCell.swift */,
 			);
 			path = MyiOSTrialTableView;
 			sourceTree = "<group>";
@@ -135,6 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4B82E3A208BAF67000553EF /* CustomTableViewCell.swift in Sources */,
 				F4B82E2A208B9F1A000553EF /* ViewController.swift in Sources */,
 				F4B82E28208B9F1A000553EF /* AppDelegate.swift in Sources */,
 			);
